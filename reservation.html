@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ポートフォリオサイトです。">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Monsieur+La+Doulaise&family=Noto+Serif+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Reservation｜Le bonheur</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                </ul>
+            </nav>            
+        </div>
+    </header>
+
+    <div class="hero reservation">
+        <h1>Reservation</h1>
+    </div>
+
+    <main>
+
+        <section class="reserve">
+            <h2>ドレス試着予約フォーム</h2>
+            <p class="sub">ご来店希望日・お時間をご入力ください。</p>
+            
+            <form action="#" method="post" class="form">
+                <label for="name">お名前<span></span></label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">メールアドレス<span></span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="tel">お電話番号<span></span></label>
+                <input type="tel" id="tel" name="tel" required>
+                
+                <label for="date">ご希望日<span></span></label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">ご希望時間<span></span></label>
+                <select id="time" name="time" required>
+                    <option value="">-- 選択してください --</option>
+                    <option value="10:00">10:00〜</option>
+                    <option value="12:00">12:00〜</option>
+                    <option value="14:00">14:00〜</option>
+                    <option value="16:00">16:00〜</option>
+                </select>
+                
+                <label for="dress">ご希望のドレススタイル</label>
+                <select id="dress" name="dress">
+                    <option value="">-- 選択してください --</option>
+                    <option value="off-shoulder">オフショルダー</option>
+                    <option value="tight">タイト</option>
+                    <option value="princess">プリンセスライン</option>
+                    <option value="a-line">Aライン</option>
+                    <option value="other">その他</option>
+                </select>
+                
+                <label for="message">ご要望・メッセージ</label>
+                <textarea id="message" name="message" rows="4" placeholder="ご希望の雰囲気やドレス番号など"></textarea>
+                
+                <button type="submit">送信</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Le bonheur</p>
+    </footer>
+</body>
