@@ -245,7 +245,11 @@ input, select, textarea {
   border-radius: 5px;
 }
 
-option[value="kind"] {
+select:invalid {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+select option {
   color: black;
 }
 
@@ -298,11 +302,11 @@ button {
 
   /* catalog.html */
 
-  .dress {
-    gap: 0 !important;
+  .catalog_item .flex, .dress {
+    gap: 0
   }
 
-  .dress img {
+  .catalog_item img, .dress img {
     display: block;
   }
 
