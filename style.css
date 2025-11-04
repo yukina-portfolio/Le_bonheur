@@ -215,9 +215,12 @@ footer {
 /* reservation.html */
 
 .reservation {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   background-image: url(images/hero_reservation.jpg);
-  filter: sepia(20%);
   background-position: bottom;
+  filter: sepia(20%);
 }
 
 .reserve {
@@ -308,6 +311,10 @@ button {
 
   .catalog_item img, .dress img {
     display: block;
+  }
+
+  .dress2 {
+    gap: 30px !important;
   }
 
   /* reservation.html */
