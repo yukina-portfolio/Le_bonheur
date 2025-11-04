@@ -184,10 +184,6 @@ footer {
   margin: 0 30%;
 }
 
-.news {
-  align-items: initial;
-}
-
 .shop img {
   width: 350px;
   height: 250px;
@@ -200,11 +196,11 @@ footer {
   filter: sepia(20%);
 }
 
-.catalog_item {
+.contents {
   text-align: initial;
 }
 
-.catalog_item h4 {
+.contents h4 {
   margin-bottom: initial;
 }
 
