@@ -215,9 +215,6 @@ footer {
 /* reservation.html */
 
 .reservation {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   background-image: url(images/hero_reservation.jpg);
   background-position: bottom;
   filter: sepia(20%);
