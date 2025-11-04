@@ -208,7 +208,7 @@ footer {
   margin-bottom: initial;
 }
 
-.dress {
+.gap {
   gap: 0;
 }
 
@@ -243,17 +243,10 @@ label {
 }
 
 input, select, textarea {
-  padding: 1%;
+  color: rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-}
-
-select:invalid {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-select option {
-  color: black;
+  padding: 1%;
 }
 
 button {
@@ -305,15 +298,15 @@ button {
 
   /* catalog.html */
 
-  .catalog_item .flex, .dress {
+  .contents .flex, .gap {
     gap: 0
   }
 
-  .catalog_item img, .dress img {
+  .contents img, .gap img {
     display: block;
   }
 
-  .dress2 {
+  .gap2 {
     gap: 30px !important;
   }
 
