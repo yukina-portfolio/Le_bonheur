@@ -182,6 +182,10 @@ footer {
   margin: 0 30%;
 }
 
+.news {
+  align-items: initial;
+}
+
 .shop img, .news img {
   width: 350px;
   height: 250px;
