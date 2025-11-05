@@ -169,8 +169,6 @@ footer {
 .slide1 { background-image: url('images/hero1.jpg'); animation-delay: 0s; }
 .slide2 { background-image: url('images/hero2.jpg'); animation-delay: 5s; }
 .slide3 { background-image: url('images/hero3.jpg'); animation-delay: 10s; }
-.slide4 { background-image: url('images/hero4.jpg'); animation-delay: 15s; }
-.slide5 { background-image: url('images/hero5.jpg'); animation-delay: 20s; }
 
 @keyframes fade {
   0%   { opacity: 0; }
@@ -184,7 +182,7 @@ footer {
   margin: 0 30%;
 }
 
-.shop img {
+.shop img, .news img {
   width: 350px;
   height: 250px;
 }
